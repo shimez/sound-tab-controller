@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title data-i18n="extensionName">Sound Tab Controller</title>
+  <style>
+    body { font-family: Arial; width: 300px; padding: 10px; font-size: 14px; }
+    h3 { margin: 0 0 10px; }
+    ul { list-style: none; padding: 0; max-height: 200px; overflow-y: auto; margin-bottom: 10px; }
+    li { margin: 5px 0; padding: 5px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    li:hover { background-color: #f0f0f0; }
+    .no-tabs { color: #888; cursor: default; }
+    .no-tabs:hover { background-color: transparent; }
+    .mute-button { 
+      width: 100%; 
+      padding: 8px; 
+      min-height: 32px; 
+      line-height: 1.5; 
+      background-color: #0078d4; 
+      color: white !important;
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 14px; 
+      text-align: center; 
+      overflow: visible; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      gap: 8px; 
+    }
+    .mute-button img { 
+      width: 16px; 
+      height: 16px; 
+      vertical-align: middle; 
+    }
+    .mute-button:hover { background-color: #005ea2; }
+    .mute-button:disabled { 
+      background-color: #cccccc; 
+      color: white !important; 
+      cursor: not-allowed; 
+    }
+    .mute-button:disabled img { 
+      opacity: 0.5; 
+    }
+  </style>
+</head>
+<body>
+  <h3 data-i18n="popupTitle"></h3>
+  <ul id="audibleTabs"></ul>
+  <button id="muteOtherTabs" class="mute-button" data-i18n="muteOtherTabs">
+    <img src="icons/mute-icon.png" alt="Mute Icon">
+    <span data-i18n="muteOtherTabs">Mute Other Tabs</span>
+  </button>
+  <script src="popup.js"></script>
+</body>
+</html>

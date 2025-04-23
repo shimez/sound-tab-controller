@@ -1,0 +1,30 @@
+{
+    "extensionName": {
+      "message": "Sound Tab Controller",
+      "description": "Name of the extension"
+    },
+    "extensionDescription": {
+      "message": "Control tab audio: view audible tabs across windows, switch to them, or mute all except the active tab.",
+      "description": "Description of the extension"
+    },
+    "popupTitle": {
+      "message": "Audible Tabs",
+      "description": "Title of the popup"
+    },
+    "muteOtherTabs": {
+      "message": "🔇Mute Other Tabs",
+      "description": "Mute button/item in popup and context menu"
+    },
+    "noAudibleTabs": {
+      "message": "No audible tabs found",
+      "description": "Message when no audible tabs are found"
+    },
+    "errorLoadingTabs": {
+      "message": "Error loading tabs",
+      "description": "Message for tab loading error"
+    },
+    "tabMuted": {
+      "message": " (Muted)",
+      "description": "Label for muted tabs"
+    }
+  }

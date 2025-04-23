@@ -1,0 +1,30 @@
+{
+    "extensionName": {
+      "message": "サウンドタブコントローラー",
+      "description": "拡張機能の名前"
+    },
+    "extensionDescription": {
+      "message": "タブのオーディオを制御：音が鳴っているタブの一覧表示、切り替え、またはアクティブタブ以外をミュート。",
+      "description": "拡張機能の説明"
+    },
+    "popupTitle": {
+      "message": "音が鳴っているタブ",
+      "description": "ポップアップのタイトル"
+    },
+    "muteOtherTabs": {
+      "message": "🔇他のタブをミュートする",
+      "description": "ポップアップとコンテキストメニューのミュートボタン/項目"
+    },
+    "noAudibleTabs": {
+      "message": "音が鳴っているタブが見つかりません",
+      "description": "音タブがない場合のメッセージ"
+    },
+    "errorLoadingTabs": {
+      "message": "タブの読み込みに失敗しました",
+      "description": "タブ読み込みエラーのメッセージ"
+    },
+    "tabMuted": {
+      "message": " (ミュート)",
+      "description": "ミュート状態のタブに付けるラベル"
+    }
+  }
